@@ -1,0 +1,44 @@
+Initializing npm
+                    npm init -y    
+Here, -y means yes to all answers to the question that it will ask for Initializing  [-y is not necessary] 
+
+Install the nodemon      
+                         npm i nodemon -g 
+
+It means installing the nodemon package globally so that we can use that from our cmd.
+
+
+Install the nodemon as devdependecy(Any dependency required just for development purpose)      
+                         npm i nodemon -D 
+
+NPM => Node Package Manager
+
+.gitignore => Any Folder name written inside it will not be fetched when we upload our project on github
+
+We can create various scripts: start, test, dev and many other  (These consists of commmand that represents their action)
+starting our project :   npm start
+Development : npm run dev
+
+Any dependency is genrally installed as ^6.2.1     It means we go ahead and allow minor updates and patches only if needed but not update major version 
+here , 6 = Major version
+2 = Minor version
+1 = patches
+~ 6.2.1   Only allow patches update if required
+6.2.1 Only this version
+
+
+
+npm i uuid@8.2.1  = Install this version
+
+
+npm update :--> Check if there are any updates in package
+
+Uninstalling any package
+npm Uninstall
+npm Uninstall
+npm rm nodemon -g    Delete Gloabl version
+npm rm nodemon -D       Delete Dev dependency
+
+
+i have made some changes
+Let me do some moore changes
